@@ -1,0 +1,6 @@
+package com.example.tight;
+
+public class CoffeeMaker {
+	
+	private EspressoMachine 
+}

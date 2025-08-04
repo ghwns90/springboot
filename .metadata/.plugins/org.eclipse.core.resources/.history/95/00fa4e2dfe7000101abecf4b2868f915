@@ -1,0 +1,20 @@
+package com.example.loose;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class CoffeeMaker {
+	
+	@Autowired
+	private CoffeeMachine coffeeMachine;
+	
+	/*	@Autowired 로 대체	
+	public void setCoffeeMachine(CoffeeMachine coffeeMachine) {
+		this.coffeeMachine = coffeeMachine;
+	}
+	*/
+	public void makeCoffee() {
+		System.out.println(coffeeMachine.brew());
+	}
+}

@@ -1,0 +1,13 @@
+package com.example.loose;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class DripCoffeeMachine implements CoffeeMachine {
+	
+	@Override
+	public String brew() {
+		return "드립커피로 커피 추출하기";
+	}
+}

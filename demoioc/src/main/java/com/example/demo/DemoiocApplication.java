@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
+
+import com.example.loose.DripCoffeeMachine;
+
+@SpringBootApplication
+@ImportResource("classpath:beans.xml")
+public class DemoiocApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoiocApplication.class, args);
+		
+	}
+
+}

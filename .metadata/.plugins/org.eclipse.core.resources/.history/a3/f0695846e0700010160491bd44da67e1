@@ -1,0 +1,8 @@
+package com.example.loose;
+
+public class CoffeeMachine {
+	
+	public String brew() {
+		return null;
+	}
+}

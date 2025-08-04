@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.example.loose&apos; to &apos;demoioc/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;demo_di&apos;&#x0D;&#x0A;- Destination element: &apos;demoioc/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;demo_di/src/main/java/com.example.loose&apos;" description="Copy package" destination="=demoioc/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.example.loose" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1754284668683" version="1.0"/>
+</session>

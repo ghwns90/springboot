@@ -1,0 +1,15 @@
+package com.example.tight;
+
+public class CoffeeMaker {
+	
+	private EspressoMachine espressoMachine;
+	
+	public CoffeeMaker() {
+		
+		this.espressoMachine = new EspressoMachine();
+	}
+	
+	public void makeCoffee() {
+		System.out.println(espressoMachine.brew());
+	}
+}

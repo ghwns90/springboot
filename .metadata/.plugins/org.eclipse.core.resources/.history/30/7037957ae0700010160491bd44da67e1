@@ -1,0 +1,5 @@
+package com.example.loose;
+
+public class EspressoMachine implements CoffeeMachine {
+	
+}
