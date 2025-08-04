@@ -9,6 +9,8 @@ import org.springframework.stereotype.Component;
 public class PiApplication implements ApplicationRunner {
     @Autowired
     private Pi pi;
+    
+    String pk;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
