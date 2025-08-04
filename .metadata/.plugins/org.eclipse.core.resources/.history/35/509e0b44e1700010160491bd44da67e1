@@ -1,8 +1,0 @@
-package com.example.loose;
-
-interface CoffeeMachine {
-	
-	public static String brew() {
-		return null;
-	}
-}

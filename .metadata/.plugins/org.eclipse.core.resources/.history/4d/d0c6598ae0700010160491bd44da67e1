@@ -1,5 +1,0 @@
-package com.example.loose;
-
-public class DripCoffeeMachine implements CoffeeMachine {
-
-}
